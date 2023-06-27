@@ -59,7 +59,7 @@ private struct ShouldMergeView: View {
   }
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("basicMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)

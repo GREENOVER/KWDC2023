@@ -65,7 +65,7 @@ private struct LinearView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -83,7 +83,7 @@ private struct EaseInView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -101,7 +101,7 @@ private struct EaseOutView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -119,7 +119,7 @@ private struct EaseInOutView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -141,7 +141,7 @@ private struct CustomView: View {
   )
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)

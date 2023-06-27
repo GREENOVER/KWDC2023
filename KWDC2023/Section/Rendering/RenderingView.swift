@@ -20,7 +20,7 @@ struct RenderingView: View {
         Spacer()
       }
       
-      Image("momo")
+      Image("basicMashong")
         .resizable()
         .scaledToFit()
         .frame(width: 250)

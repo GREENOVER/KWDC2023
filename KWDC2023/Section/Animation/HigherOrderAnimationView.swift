@@ -65,7 +65,7 @@ private struct DelayView: View {
   @State private var rotation: Double = 0
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("basicMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -85,7 +85,7 @@ private struct RepeatView: View {
   @State private var rotation: Double = 0
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("basicMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -105,7 +105,7 @@ private struct RepeatForeverView: View {
   @State private var rotation: Double = 0
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("basicMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -125,7 +125,7 @@ private struct AutoreversesView: View {
   @State private var rotation: Double = 0
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("basicMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -150,7 +150,7 @@ private struct StopAnimationView: View {
   }
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("basicMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)

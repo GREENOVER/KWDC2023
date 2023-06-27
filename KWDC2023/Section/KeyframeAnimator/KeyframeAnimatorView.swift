@@ -21,7 +21,7 @@ struct KeyframeAnimatorView: View {
         Spacer()
       }
       
-      Image("momo")
+      Image("basicMashong")
         .resizable()
         .scaledToFit()
         .frame(width: 250)
@@ -58,8 +58,9 @@ struct KeyframeAnimatorView: View {
           
           KeyframeTrack(\.angle) {
             LinearKeyframe(.degrees(90), duration: 0.5)
-            SpringKeyframe(.degrees(180), duration: 0.8, spring: .bouncy)
-            SpringKeyframe(.degrees(0), spring: .bouncy)
+            SpringKeyframe(.degrees(180), duration: 0.3, spring: .bouncy)
+            SpringKeyframe(.degrees(270), duration: 0.3, spring: .bouncy)
+            SpringKeyframe(.degrees(360), duration: 0.3, spring: .bouncy)
           }
         }
     }

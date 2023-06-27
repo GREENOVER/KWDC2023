@@ -66,7 +66,7 @@ private struct OrdinaryView: View {
   
   fileprivate var body: some View {
     VStack {
-      Image("momo")
+      Image("iOSMashong")
         .resizable()
         .scaledToFit()
         .frame(width: 250)
@@ -77,7 +77,7 @@ private struct OrdinaryView: View {
           }
         }
       
-      Image("momo")
+      Image("thinkingMashong")
         .resizable()
         .scaledToFit()
         .frame(width: 250)
@@ -101,7 +101,7 @@ private struct TransactionAnimationView: View {
   
   fileprivate var body: some View {
     VStack {
-      Image("momo")
+      Image("iOSMashong")
         .resizable()
         .scaledToFit()
         .frame(width: 250)
@@ -115,7 +115,7 @@ private struct TransactionAnimationView: View {
           }
         }
       
-      Image("momo")
+      Image("thinkingMashong")
         .resizable()
         .scaledToFit()
         .frame(width: 250)
@@ -137,7 +137,7 @@ private struct MultipleAnimationView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -156,7 +156,7 @@ private struct UnintentionalAnimationView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -174,7 +174,7 @@ private struct NewAnimationView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -195,7 +195,7 @@ private struct TransactionKeyView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)

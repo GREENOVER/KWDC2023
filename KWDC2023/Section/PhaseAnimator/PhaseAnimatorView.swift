@@ -46,7 +46,7 @@ struct PhaseAnimatorView: View {
 // MARK: - Basic Phase Animator
 private struct BasicPhaseAnimatorView: View {
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -64,7 +64,7 @@ private struct TriggerPhaseAnimatorView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -88,7 +88,7 @@ private struct MultiplePhaseAnimatorView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)

@@ -65,7 +65,7 @@ private struct SmoothView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -83,7 +83,7 @@ private struct SnappyView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -101,7 +101,7 @@ private struct BouncyView: View {
   @State private var selected: Bool = false
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -120,7 +120,7 @@ private struct CustomView: View {
   private var customSpring: Spring = .init(duration: 1.0, bounce: 0.8)
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
@@ -139,7 +139,7 @@ private struct CustomRepeatView: View {
   private var customSpring: Spring = .init(duration: 1.0, bounce: 1)
   
   fileprivate var body: some View {
-    Image("momo")
+    Image("iOSMashong")
       .resizable()
       .scaledToFit()
       .frame(width: 250)
